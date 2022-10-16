@@ -31,7 +31,7 @@ public class local extends Fragment {
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container,
                              @Nullable Bundle savedInstanceState) {
-         View view=inflater.inflate(R.layout.fragment_local, container, false);
+        View view=inflater.inflate(R.layout.fragment_local, container, false);
         SupportMapFragment supportMapFragment=(SupportMapFragment)
                 getChildFragmentManager().findFragmentById(R.id.google_map);
         supportMapFragment.getMapAsync(new OnMapReadyCallback() {
@@ -39,7 +39,7 @@ public class local extends Fragment {
             public void onMapReady(@NonNull GoogleMap googleMap) {
                 LatLng hotel= new LatLng(36.402193, 10.638396);
                 googleMap.addMarker(new MarkerOptions().position(hotel).title("Grand Hotel"));
-                googleMap.moveCamera(CameraUpdateFactory.newLatLng(hotel));
+                googleMap.moveCamera(CameraUpdateFactory.newLatLngZoom(hotel, 10));
             }
         });
 

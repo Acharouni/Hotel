@@ -25,9 +25,9 @@
 
     <fragment
         android:id="@+id/dinning"
-        android:name="com.example.hotel.ui.about.about"
+        android:name="com.example.hotel.ui.dinner.dinner"
         android:label="@string/dinning"
-        tools:layout="@layout/fragment_about" />
+        tools:layout="@layout/fragment_dinner" />
     <fragment
         android:id="@+id/loaction"
         android:name="com.example.hotel.ui.local.local"
