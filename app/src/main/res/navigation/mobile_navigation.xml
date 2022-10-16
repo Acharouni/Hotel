@@ -15,7 +15,7 @@
         android:id="@+id/room"
         android:name="com.example.hotel.ui.room.room"
         android:label="@string/room"
-        tools:layout="@layout/room" />
+        tools:layout="@layout/fragment_room" />
 
     <fragment
         android:id="@+id/nav_gallery"
@@ -25,24 +25,29 @@
 
     <fragment
         android:id="@+id/dinning"
-        android:name="com.example.hotel.ui.slideshow.SlideshowFragment"
+        android:name="com.example.hotel.ui.about.about"
         android:label="@string/dinning"
-        tools:layout="@layout/fragment_slideshow" />
+        tools:layout="@layout/fragment_about" />
     <fragment
         android:id="@+id/loaction"
-        android:name="com.example.hotel.ui.slideshow.SlideshowFragment"
+        android:name="com.example.hotel.ui.local.local"
         android:label="@string/location"
         tools:layout="@layout/location" />
 
     <fragment
         android:id="@+id/contact"
-        android:name="com.example.hotel.ui.slideshow.SlideshowFragment"
+        android:name="com.example.hotel.ui.contactus.contactus"
         android:label="@string/contact"
-        tools:layout="@layout/contact" />
+        tools:layout="@layout/fragment_contactus" />
     <fragment
         android:id="@+id/about"
-        android:name="com.example.hotel.ui.slideshow.SlideshowFragment"
+        android:name="com.example.hotel.ui.about.about"
         android:label="@string/about"
         tools:layout="@layout/about" />
+    <fragment
+        android:id="@+id/logout"
+        android:name="com.example.hotel.ui.login.login"
+        android:label="Logout"
+        tools:layout="@layout/fragment_login" />
 
 </navigation>

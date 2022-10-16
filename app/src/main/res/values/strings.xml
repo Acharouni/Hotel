@@ -15,4 +15,8 @@
     <string name="contact">Contact US</string>
     <string name="about">About</string>
     <string name="deconnexion">Deconnexion</string>
+    <string name="title_activity_main2">MainActivity2</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_slideshow">Slideshow</string>
 </resources>

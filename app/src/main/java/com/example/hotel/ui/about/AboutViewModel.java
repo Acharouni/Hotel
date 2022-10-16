@@ -1,16 +1,16 @@
-package com.example.hotel.ui.home;
+package com.example.hotel.ui.about;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-public class HomeViewModel extends ViewModel {
+public class AboutViewModel extends ViewModel {
 
     private final MutableLiveData<String> mText;
 
-    public HomeViewModel() {
+    public AboutViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("");
+        mText.setValue("This is slideshow fragment");
     }
 
     public LiveData<String> getText() {
